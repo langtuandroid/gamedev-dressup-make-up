@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 849}
+  m_IsPrefabParent: 1
+--- !u!4 &1119
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 849}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1119}
+  - component: {fileID: 1887}
+  m_Layer: 0
+  m_Name: "group_skirts"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1887
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb11d042710c66aac53004c3e7fa294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 1822557b901c4aa098d6ca08976e1a25, type: 3}
+  items:
+  - {fileID: 1816, guid: 49352a6b59d94da8894137e8caad728b, type: 2}
+  - {fileID: 1827, guid: 9ec0aa5c135447169b301dc3a4bc7185, type: 2}
+  - {fileID: 1834, guid: 3e43a38654834f95b1f30c4814fdd4fe, type: 2}
+  - {fileID: 1835, guid: a9baee367df34040aaddc2c739d31277, type: 2}
+  - {fileID: 1836, guid: a7e18556ce3e442abfe0b341f039909d, type: 2}
+  - {fileID: 1837, guid: 14b25e7e69534442bf7c0b4627c8410e, type: 2}
+  - {fileID: 1838, guid: 7ae23c81a8354579b5b8b57ed17af00a, type: 2}
+  - {fileID: 1839, guid: 3f65049b1403458a80f8ec40c1654035, type: 2}
+  - {fileID: 1840, guid: 95a8c8a5bd4c44a89871e886a20c222a, type: 2}
+  - {fileID: 1817, guid: c6c5bd4d2a8f4b52845948e37a45dbe0, type: 2}
+  - {fileID: 1818, guid: 15eb6d21c5d345b1a5d1ad209f1ee45b, type: 2}
+  - {fileID: 1819, guid: 10b7e62cdd8540a6a43aba96177fa5c1, type: 2}
+  - {fileID: 1820, guid: d815c21a1be747f9a5411d1eea01fa10, type: 2}
+  - {fileID: 1821, guid: 2dbeea4e94ff40beb29c4e836a05c6bf, type: 2}
+  - {fileID: 1822, guid: a87317c1924e4eb695fcdd9ccd35e707, type: 2}
+  - {fileID: 1823, guid: 5c5cbd9519bf4846bbccbec2d4355ef5, type: 2}
+  - {fileID: 1824, guid: 559618ee7e0f4ac79d6ade1e15297ae8, type: 2}
+  - {fileID: 1825, guid: 3bde94639a2440e0b9e582567be14497, type: 2}
+  - {fileID: 1826, guid: 1aba58000e4744fca53bd8fdac0f4d66, type: 2}
+  - {fileID: 1828, guid: e292ce15ca39497ab8e678f5d2b7d53a, type: 2}
+  - {fileID: 1829, guid: f765244069934ab88fd8791703794a17, type: 2}
+  - {fileID: 1830, guid: 79b50ace45e245798919bffa9391e1ea, type: 2}
+  - {fileID: 1831, guid: 28becdfd115947a7be54255b82bd3c98, type: 2}
+  - {fileID: 1832, guid: b9afa5b1f94c4a5db959a3d9cd564e88, type: 2}
+  - {fileID: 1833, guid: cec20aa049bc472a85a1674d84fc9320, type: 2}

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 847}
+  m_IsPrefabParent: 1
+--- !u!4 &1117
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 847}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1117}
+  - component: {fileID: 1885}
+  m_Layer: 0
+  m_Name: "group_pets"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1885
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb11d042710c66aac53004c3e7fa294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 67be5878f8a643c187e855864f8219a9, type: 3}
+  items:
+  - {fileID: 1786, guid: a4b3374c879c4e4e8c7f2f26a75e5ec6, type: 2}
+  - {fileID: 1793, guid: 3b5fefb82685413f8220c3aa14a3d408, type: 2}
+  - {fileID: 1794, guid: 2b24732c01704cc6879cabc1ecbb19d5, type: 2}
+  - {fileID: 1795, guid: 401066460dac4e3bb24b870beeea8617, type: 2}
+  - {fileID: 1796, guid: 38f4e390cd2c4949b8baac930b60d372, type: 2}
+  - {fileID: 1797, guid: 92c1ed1484004de2a6552d1984114bc1, type: 2}
+  - {fileID: 1798, guid: 986a654fd43d4895bffa00e708a5dfa9, type: 2}
+  - {fileID: 1799, guid: b22131c79d9d47eab507881b10ce32da, type: 2}
+  - {fileID: 1800, guid: 36217a37cdea4128b7502c76a20cd22a, type: 2}
+  - {fileID: 1787, guid: d9071a20826040b29ee90f817d2f72b7, type: 2}
+  - {fileID: 1788, guid: e5672eb37eec4610810db4064bd5b255, type: 2}
+  - {fileID: 1789, guid: b6c4a5d87dd5471181d015761f3c98ef, type: 2}
+  - {fileID: 1790, guid: 5618d1790a874bd39a04e646c4a291bd, type: 2}
+  - {fileID: 1791, guid: 62db173b86214589bc39f55486393225, type: 2}
+  - {fileID: 1792, guid: 8874e56288de4b8c8e88363da4ff8164, type: 2}

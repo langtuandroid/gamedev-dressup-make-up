@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 841}
+  m_IsPrefabParent: 1
+--- !u!4 &1111
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 841}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1111}
+  - component: {fileID: 1879}
+  m_Layer: 0
+  m_Name: "group_gloves"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1879
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb11d042710c66aac53004c3e7fa294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: eb134ce6f8d64374b5c0cb30ac0445e8, type: 3}
+  items:
+  - {fileID: 1676, guid: 48d193eb58e34861b84dabb673d7e13b, type: 2}
+  - {fileID: 1683, guid: 0c34e8305d4f495da6ac6ff57738c154, type: 2}
+  - {fileID: 1684, guid: 2224bcfd977a44858bde8d2941379f58, type: 2}
+  - {fileID: 1685, guid: 8cd463e1a7f84c079bc7a8b6317468b2, type: 2}
+  - {fileID: 1686, guid: 8e186a5ad7ff44f8b8b51508edf349f4, type: 2}
+  - {fileID: 1687, guid: 3f68d31c940943ab98965b6cd4d9debc, type: 2}
+  - {fileID: 1688, guid: 52cc4d6ee7ab4d8895e602f8dc9bc8d0, type: 2}
+  - {fileID: 1689, guid: 777c0b7f52b04fac8502dacf7c626fba, type: 2}
+  - {fileID: 1690, guid: 1ee9d07a43f840c7a0eb2daca7f3566d, type: 2}
+  - {fileID: 1677, guid: 072f6fb9d23f41bfb11e71573bd40a12, type: 2}
+  - {fileID: 1678, guid: 79d1421d66fe46c280295d50fea54fc4, type: 2}
+  - {fileID: 1679, guid: 735a772bc53f43f79251619bc8235c2e, type: 2}
+  - {fileID: 1680, guid: ec575887b868429ab25eae31b82cc3a9, type: 2}
+  - {fileID: 1681, guid: e34cf2d35c5c4ff8bcb3739b201094bd, type: 2}
+  - {fileID: 1682, guid: 8be43d050cac467ea3ee8f784cf2d106, type: 2}

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 850}
+  m_IsPrefabParent: 1
+--- !u!4 &1120
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1120}
+  - component: {fileID: 1888}
+  m_Layer: 0
+  m_Name: "group_tops"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb11d042710c66aac53004c3e7fa294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: d9dd4627176c4a39b7aa5dcf004423f6, type: 3}
+  items:
+  - {fileID: 1841, guid: 5c0d83f2b6044ff0a69b692f554dfad8, type: 2}
+  - {fileID: 1852, guid: 8d3100cbb82e477eb2ebeed4e628a740, type: 2}
+  - {fileID: 1859, guid: 468c83a0aa9648c89e6398a8dc698450, type: 2}
+  - {fileID: 1860, guid: 7cf7cffe4aae4283b0159de8caba9381, type: 2}
+  - {fileID: 1861, guid: b3ba86193cbd41b3adc600c4d0566db1, type: 2}
+  - {fileID: 1862, guid: 8b86dc1c30a843fa983f83a4dd5a140f, type: 2}
+  - {fileID: 1863, guid: b6ae58c0c26c461a805c073db637b413, type: 2}
+  - {fileID: 1864, guid: 1d0a275ae5a54138bf6b5ef4a44cf542, type: 2}
+  - {fileID: 1865, guid: 17892afd233b42fd92a8aff1f479e53e, type: 2}
+  - {fileID: 1842, guid: 3f2488dbb4174a5caa747d5a2bee22bf, type: 2}
+  - {fileID: 1843, guid: d36415cb07c84bdeb23fcf9023a4d361, type: 2}
+  - {fileID: 1844, guid: 1b4f900666754549962fb8f276f9c719, type: 2}
+  - {fileID: 1845, guid: 2af8c4fe3bb54ea689101dcdff429966, type: 2}
+  - {fileID: 1846, guid: c9515d4878974b3db174aa3fac502a30, type: 2}
+  - {fileID: 1847, guid: ef68213dfa7243e19ff82ae2e978c39f, type: 2}
+  - {fileID: 1848, guid: e3da2e5e31d04976a089796bd5df0171, type: 2}
+  - {fileID: 1849, guid: f72ef9db179a44089171bff57334e8fb, type: 2}
+  - {fileID: 1850, guid: 204dbaa7436c4a19b4353c87c03ba9e7, type: 2}
+  - {fileID: 1851, guid: 221c30d988fe4414915f282729f5396e, type: 2}
+  - {fileID: 1853, guid: b74636ed323242f686d2b42f86a4c19a, type: 2}
+  - {fileID: 1854, guid: 873e9c1a88124eac9ceb33c37cb016d7, type: 2}
+  - {fileID: 1855, guid: 743b97463947444fa21c93fb5ecff927, type: 2}
+  - {fileID: 1856, guid: 521895aa8ed745db9f50faeccb4bef1c, type: 2}
+  - {fileID: 1857, guid: e26f586d92f4477ca3bdc46c9021849d, type: 2}
+  - {fileID: 1858, guid: e813b41279334e74a11d313e9e0510d5, type: 2}

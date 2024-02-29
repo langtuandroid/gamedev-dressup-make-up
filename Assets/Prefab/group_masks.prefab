@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 845}
+  m_IsPrefabParent: 1
+--- !u!4 &1115
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1115}
+  - component: {fileID: 1883}
+  m_Layer: 0
+  m_Name: "group_masks"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1883
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb11d042710c66aac53004c3e7fa294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 408fd41ae88544f78c8939e8fa747d1f, type: 3}
+  items:
+  - {fileID: 1761, guid: 8de32dfaa5c44de796f783589eded899, type: 2}
+  - {fileID: 1763, guid: e442b9fe1dfa4c93b3b3cd4293f90955, type: 2}
+  - {fileID: 1764, guid: c083bbeb6b2c487dbd1517c85305177f, type: 2}
+  - {fileID: 1765, guid: 56c1396865d6494784ae65d1783c0603, type: 2}
+  - {fileID: 1766, guid: 8b55224666c74ceb832020ff32c92e46, type: 2}
+  - {fileID: 1767, guid: 5387bea19ffa42b28efdbc7604d68d41, type: 2}
+  - {fileID: 1768, guid: 96a7fe8fbb5d467992b0ee43e221e25d, type: 2}
+  - {fileID: 1769, guid: 4749565096384d5fbe42a69dfe37cb20, type: 2}
+  - {fileID: 1770, guid: 5756738dddad4e92b6d78968e391f863, type: 2}
+  - {fileID: 1762, guid: b2f1f0cfbf7443e1be857d15d1310ee5, type: 2}

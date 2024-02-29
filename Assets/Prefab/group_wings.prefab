@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 851}
+  m_IsPrefabParent: 1
+--- !u!4 &1121
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1121}
+  - component: {fileID: 1889}
+  m_Layer: 0
+  m_Name: "group_wings"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1889
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb11d042710c66aac53004c3e7fa294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 443b27617bac4d4f9e855269cc105a6b, type: 3}
+  items:
+  - {fileID: 1868, guid: 613292cba7d548c09e531e66d5300d27, type: 2}
+  - {fileID: 1869, guid: 828744b97b1e46319366ec14b2d0527e, type: 2}
+  - {fileID: 1870, guid: fda9d60e763543c8994639c5b4af0158, type: 2}
+  - {fileID: 1871, guid: f05b8986ce66453b96a8ca3d1ddb36a0, type: 2}
+  - {fileID: 1872, guid: 455c9ebb79b74f1ea9355aff144fb98d, type: 2}
+  - {fileID: 1873, guid: d31b0e20985e4ccb8d9ceb2203fbf111, type: 2}
+  - {fileID: 1874, guid: 1d1db6db914248a496f83d222fa4a2e9, type: 2}
+  - {fileID: 1875, guid: c4c8428250354e34b342d7c218cf1fec, type: 2}
+  - {fileID: 1867, guid: 1efccccfd75f4d679d8c614562ad4e60, type: 2}
+  - {fileID: 1866, guid: 6ecc184e8cc640f38345becdd88a892a, type: 2}

@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 726}
+  m_IsPrefabParent: 1
+--- !u!4 &996
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.005, y: 3.804, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 996}
+  - component: {fileID: 1512}
+  - component: {fileID: 1764}
+  - component: {fileID: 1368}
+  m_Layer: 0
+  m_Name: "mask_3"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!60 &1368
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 726}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.12, y: 0.83}
+    newSize: {x: 3.69, y: 1.57}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.39, y: -0.195}
+      - {x: 0.51, y: -0.095}
+      - {x: 0.56, y: 0.025}
+      - {x: 0.56, y: 0.355}
+      - {x: 0.5, y: 0.415}
+      - {x: 0.31, y: 0.415}
+      - {x: 0.16, y: 0.315}
+      - {x: -0.06, y: 0.415}
+      - {x: -0.44, y: 0.415}
+      - {x: -0.49, y: 0.405}
+      - {x: -0.56, y: 0.325}
+      - {x: -0.56, y: -0.095}
+      - {x: -0.54, y: -0.185}
+      - {x: -0.43, y: -0.325}
+      - {x: -0.25, y: -0.415}
+      - {x: -0.13, y: -0.415}
+      - {x: -0.18, y: -0.255}
+      - {x: 0.13, y: -0.075}
+      - {x: 0.19, y: -0.145}
+    - - {x: -0.3, y: 0.015}
+      - {x: -0.35, y: 0.075}
+      - {x: -0.33, y: 0.185}
+      - {x: -0.23, y: 0.215}
+      - {x: -0.07, y: 0.185}
+      - {x: 0, y: 0.085}
+      - {x: -0.13, y: 0.015}
+    - - {x: 0.23, y: 0.045}
+      - {x: 0.23, y: 0.145}
+      - {x: 0.43, y: 0.175}
+      - {x: 0.39, y: 0.055}
+--- !u!212 &1512
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 726}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_LightmapIndex: 65535
+  m_LightmapIndexDynamic: 65535
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_LightmapTilingOffsetDynamic: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 0e4399fbc75e4b46ac33edd508aa3fe6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 8
+  m_Sprite: {fileID: 21300000, guid: e8cf992fc28049238da64c331e311d8d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.69, y: 1.57}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b1d053fec73c4aaf308f3828048b8e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neededSlots: 03000000
+  iconSprite: {fileID: 0}
+  iconColor: {r: 1, g: 1, b: 1, a: 1}
